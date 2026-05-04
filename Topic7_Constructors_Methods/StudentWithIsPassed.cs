@@ -1,12 +1,14 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using LearningCSharpNotes.Topic7_Constructors_Methods;
 
-namespace LearningCSharpNotes.Topic7_Constructors_Methods
+class Program
 {
-    internal class StudentWithIsPassed
+    static void Main()
     {
+        // Using constructor topic
+        StudentWithConstructor s1 = new StudentWithConstructor("Ram", 80, 1);
+        s1.Display();
+
+        StudentWithIsPassed s2 = new StudentWithIsPassed("Sita", 35, 2);
+        Console.WriteLine($"Passed? {s2.IsPassed()}");
     }
 }
