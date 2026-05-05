@@ -1,4 +1,6 @@
 ﻿using LearningCSharpNotes.Topics;
+using LearningCSharpNotes.Topic08_Inheritance;   
+
 using System;
 
 class Program
@@ -29,9 +31,9 @@ class Program
             case "4":
                 Topic08_Inheritance.Demo();
                 break;
-            default:
                 Console.WriteLine("Invalid choice");
                 break;
         }
     }
 }
+

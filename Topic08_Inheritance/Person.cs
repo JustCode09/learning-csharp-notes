@@ -1,12 +1,17 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace LearningCSharpNotes.Topic08_Inheritance
 {
-    internal class Person
+    // Parent class: contains common properties for all persons
+    public class Person
     {
+        public string name;
+        public int age;
+
+        // Method that can be used by any child
+        public void ShowBasic()
+        {
+            Console.WriteLine($"Name: {name}, Age: {age}");
+        }
     }
 }

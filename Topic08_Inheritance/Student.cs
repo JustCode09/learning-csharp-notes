@@ -1,12 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace LearningCSharpNotes.Topic08_Inheritance
+﻿namespace LearningCSharpNotes.Topic08_Inheritance
 {
-    internal class Student
+    // Student IS-A Person
+    public class Student : Person
     {
+        public int marks;
+
+        // No need to redeclare name/age – they come from Person
     }
 }
