@@ -1,5 +1,8 @@
 ﻿using LearningCSharpNotes.Topics;
-using LearningCSharpNotes.Topic08_Inheritance;   
+using LearningCSharpNotes.Topic08_Inheritance;
+using LearningCSharpNotes.Topic09_Polymorphism;
+using LearningCSharpNotes.Topic10_Encapsulation;
+using LearningCSharpNotes.Topic11_AbstractionInterface;
 
 using System;
 
@@ -12,6 +15,8 @@ class Program
         Console.WriteLine("2. Classes & Objects (Topic 6)");
         Console.WriteLine("3. Constructors & Methods (Topic 7)");
         Console.WriteLine("4. Inheritance (Topic 8)");
+        Console.WriteLine("6. Encapsulation (Topic 10)");
+        Console.WriteLine("7. Abstraction & Interface (Topic 11)");
         Console.Write("Select topic number: ");
 
         string choice = Console.ReadLine();
@@ -30,6 +35,15 @@ class Program
                 break;
             case "4":
                 Topic08_Inheritance.Demo();
+                break;
+            case "5":
+                Topic09_Polymorphism.Demo();
+                break;
+            case "6":
+                Topic10_Encapsulation.Demo();
+                break;
+            case "7":
+                Topic11_AbstractionInterface.Demo();
                 break;
                 Console.WriteLine("Invalid choice");
                 break;
