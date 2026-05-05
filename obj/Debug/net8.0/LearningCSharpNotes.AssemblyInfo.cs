@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("LearningCSharpNotes")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f3ab96dc6446cdb364cf61e739773bac0103a675")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9d4b5b6da6cc572821193b3d9236e5341de757ab")]
 [assembly: System.Reflection.AssemblyProductAttribute("LearningCSharpNotes")]
 [assembly: System.Reflection.AssemblyTitleAttribute("LearningCSharpNotes")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
