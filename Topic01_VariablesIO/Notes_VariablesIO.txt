@@ -1,0 +1,21 @@
+========== VARIABLES & INPUT/OUTPUT ==========
+
+Variable = named storage for data.
+
+Basic types:
+- int : whole numbers (e.g., 10, -3, 0)
+- double : decimal numbers (e.g., 3.14)
+- string : text (e.g., "Hello")
+- bool : true/false
+
+Input:
+Console.ReadLine() returns a string.
+Convert.ToInt32() converts string to int.
+Convert.ToDouble() for decimal.
+
+Output:
+Console.WriteLine() prints and moves to next line.
+Console.Write() prints without new line.
+
+String concatenation: "Hello " + name
+String interpolation: $"Hello {name}" (preferred)

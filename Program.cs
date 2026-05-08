@@ -1,4 +1,5 @@
 ﻿using LearningCSharpNotes.Topics;
+using LearningCSharpNotes.Topic01_VariablesIO;
 using LearningCSharpNotes.Topic08_Inheritance;
 using LearningCSharpNotes.Topic09_Polymorphism;
 using LearningCSharpNotes.Topic10_Encapsulation;
@@ -12,6 +13,7 @@ class Program
     static void Main(string[] args)
     {
         Console.WriteLine("===== C# Learning Notes =====");
+        Console.WriteLine("1. Variables & I/O (Topic 1)");
         Console.WriteLine("1. Loops (Topic 3)");
         Console.WriteLine("2. Classes & Objects (Topic 6)");
         Console.WriteLine("3. Constructors & Methods (Topic 7)");
@@ -27,27 +29,30 @@ class Program
         switch (choice)
         {
             case "1":
-                Topic03_Loops.Demo();
-                break;
-            case "2":
-                Topic06_ClassesObjects.Demo();
+                Topic01_VariablesIO.Demo();
                 break;
             case "3":
-                Topic07_Constructors.Demo();
+                Topic03_Loops.Demo();
                 break;
             case "4":
-                Topic08_Inheritance.Demo();
+                Topic06_ClassesObjects.Demo();
                 break;
             case "5":
-                Topic09_Polymorphism.Demo();
+                Topic07_Constructors.Demo();
                 break;
             case "6":
-                Topic10_Encapsulation.Demo();
+                Topic08_Inheritance.Demo();
                 break;
             case "7":
-                Topic11_AbstractionInterface.Demo();
+                Topic09_Polymorphism.Demo();
                 break;
             case "8":
+                Topic10_Encapsulation.Demo();
+                break;
+            case "9":
+                Topic11_AbstractionInterface.Demo();
+                break;
+            case "10":
                 Topic12_ExceptionHandling.Demo();
                 break;
                 Console.WriteLine("Invalid choice");
