@@ -1,0 +1,6 @@
+========== POLYMORPHISM ==========
+
+- Same method name, different behaviour.
+- virtual in base class, override in derived class.
+- A base class reference can hold a derived object.
+- The actual object's method is called at runtime.

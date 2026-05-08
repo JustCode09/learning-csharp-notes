@@ -1,0 +1,39 @@
+﻿========== ABSTRACTION & INTERFACE ==========
+
+Abstraction: Hide implementation details; show only essential features.
+
+Abstract class:
+- Can have both abstract (no body) and concrete (with body) methods.
+- Cannot be instantiated.
+- A class can inherit only one abstract class.
+
+Interface:
+- No implementation (only signatures of methods, properties).
+- Can be implemented by any class (unrelated classes).
+- A class can implement many interfaces.
+
+When to use:
+- Abstract class: when you have a "is-a" relationship and want to share code.
+- Interface: when you need a contract that multiple classes must follow (e.g., sorting, disposal).
+
+Real-world examples in .NET:
+- IDisposable → implement to release resources.
+- IEnumerable → implement to allow foreach.
+- IComparable → implement to allow sorting.
+
+abstracr class- some things are already done, some are missing
+interface - everything is missing, you must define it all.
+
+abstract class(partial implementation/half-built class)
+abstract class animal{
+public void eat(){
+console.writeline("eating");}
+public abstract void makeSound(); // no body, must be implemented by derived class	
+}
+class dog: animal{
+public override void makeSound(){
+console.writeline("bark");}}
+
+dog d = new dog();
+d.eat(); // eating
+d.makeSound(); // bark

@@ -1,0 +1,40 @@
+========== ENCAPSULATION ==========
+
+Definition:
+Encapsulation hides internal data and provides controlled access via methods/properties.
+
+Why needed:
+- Prevent invalid values (e.g., marks > 100).
+- Change internal implementation without breaking external code.
+- Hide complexity.
+
+Implementation in C#:
+1. Make fields private.
+2. Write public methods (Get/Set) or properties.
+
+Property syntax:
+public int Marks
+{
+    get { return marks; }
+    set { if(condition) marks = value; }
+}
+
+Auto-implemented property (when no logic needed):
+public string Name { get; set; }
+
+Validation examples:
+- Age: between 0 and 120.
+- Marks: between 0 and 100.
+
+Best practices:
+- Always use properties instead of public fields.
+- Use auto-properties for simple data.
+- Add validation where necessary.
+
+class bankaccount{
+private decimal balance;
+public void deposit(decimal amount)
+{
+if(amount <=0) throw new exception("deposit positive only");
+balance += amount
+}}

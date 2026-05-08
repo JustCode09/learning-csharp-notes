@@ -1,12 +1,15 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace LearningCSharpNotes.Topic09_Polymorphism
 {
-    internal class Person
+    public class Person
     {
+        public string name;
+        public int age;
+
+        public virtual void ShowRole()
+        {
+            Console.WriteLine("Person has a generic role.");
+        }
     }
 }
