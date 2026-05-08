@@ -37,3 +37,34 @@ console.writeline("bark");}}
 dog d = new dog();
 d.eat(); // eating
 d.makeSound(); // bark
+
+abstract class character{
+public abstract void attack();}
+
+class warrior : character{
+public overide void attack(){
+console.writeline("sword attack");} }
+
+class mage : character{
+public overide voud attack(){
+console.writeline("magic attack");} }
+
+list<character>characters = new list<character> {new warrior(), new mage() };
+foreach( character c in characters){
+c.attack();}
+
+interface ishape{
+
+void attack();}
+class warrior : ishape{
+public void attack(){
+console.writeline("sword attack");}  }
+
+class chair : ishape{
+public void attack(){
+console.writeline("chair attack");}
+ }
+
+ list<ishape> shapes = new list<ishape> {new warrior(), new chair() };
+ foreach(ishape s in shapes){
+ s.attaack();}

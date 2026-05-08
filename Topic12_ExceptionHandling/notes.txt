@@ -1,0 +1,19 @@
+========== EXCEPTION HANDLING ==========
+Exception = runtime error that crashes the program unless handled.
+
+Why handle? To keep the program running and give user‑friendly messages.
+
+Basic structure:
+try { risky code }
+catch (SpecificException) { handle }
+finally { always runs }
+
+Common exception types:
+- FormatException (bad number format)
+- DivideByZeroException
+- OverflowException (number too big)
+
+Best practices:
+- Catch specific exceptions, not just 'catch'.
+- Use loops to retry on invalid input.
+- Show helpful messages.
