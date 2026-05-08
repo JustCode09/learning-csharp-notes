@@ -1,0 +1,29 @@
+========== CONTROL FLOW (IF/ELSE) ==========
+
+Control flow allows the program to make decisions based on conditions.
+
+Basic structure:
+if (condition) { ... }
+else if (another condition) { ... }
+else { ... }
+
+Conditions use relational operators:
+==  equal to
+!=  not equal
+>   greater than
+<   less than
+>=  greater than or equal
+<=  less than or equal
+
+Logical operators (combine conditions):
+&&  AND (both true)
+||  OR (at least one true)
+!   NOT (negates)
+
+Even/odd check:
+number % 2 == 0  → even
+number % 2 != 0  → odd
+
+Best practices:
+- Use braces {} even for single statements (avoid bugs).
+- Keep conditions simple; extract complex logic into variables.
