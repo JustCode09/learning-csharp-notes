@@ -1,0 +1,26 @@
+--- LOOP PRACTICES & THINKING RULE ---
+
+Practice 1: Daily Steps Tracker
+- Repeat input N days → for loop
+- Accumulate steps → sum = sum + steps
+
+Practice 2: Password System
+- Unknown attempts → while loop
+- Correct password = 1234
+
+Practice 3: Multiplication Table
+- Fixed 1–10 → for loop
+- Print formatted equation
+
+Practice 4: Even Numbers Printer
+- Loop 1 to N
+- Filter with if (i % 2 == 0)
+
+THINKING RULE FOR LOOPS:
+1. Do I repeat? → Yes → loop
+2. Do I know how many times? → Yes → for, No → while
+3. Am I filtering? → Yes → use if inside loop
+
+Real programmer mindset:
+- "loop 1 to 100, check each number, print if even"
+- NOT "what syntax do I use?"
