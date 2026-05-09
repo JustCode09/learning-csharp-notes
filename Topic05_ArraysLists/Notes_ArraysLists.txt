@@ -1,0 +1,26 @@
+========== ARRAYS & LISTS ==========
+
+ARRAYS (fixed size):
+- Declare: int[] numbers = new int[3];
+- Access: numbers[0] = 10;
+- Fixed length: numbers.Length
+- Loop: for (int i = 0; i < numbers.Length; i++)
+
+LISTS (dynamic, preferred in real apps):
+- require: using System.Collections.Generic;
+- Declare: List<int> numbers = new List<int>();
+- Add: numbers.Add(10);
+- Access: numbers[0]
+- Count: numbers.Count
+- Loop: foreach (int num in numbers)
+
+Arrays vs Lists quick:
+- Array: fixed, simpler for known size.
+- List: flexible, more methods (Add, Remove, Insert, etc.).
+
+In real projects, Lists are used more because you rarely know the exact number of items upfront.
+
+Task: Student Marks System
+- List<int> marks
+- Add marks in loop
+- Calculate total, average, highest, lowest
