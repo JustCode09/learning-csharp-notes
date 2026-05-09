@@ -1,0 +1,30 @@
+========== CLASSES & OBJECTS ==========
+
+A class is a blueprint for creating objects (instances). It defines what data (fields) and behavior (methods) the objects will have.
+
+Syntax:
+class MyClass
+{
+    public string field;
+    // ... methods
+}
+
+Creating an object:
+MyClass obj = new MyClass();
+obj.field = "value";
+
+Object = real instance of a class.
+
+Common pattern:
+- Define a class (usually in its own file or inside the same file).
+- Create a list of that class type.
+- In a loop, create object, set properties, add to list.
+- Loop again to display or process.
+
+Benefits over separate arrays:
+- Data stays together (e.g., name, age, marks for one student).
+- Easier to pass around and extend.
+
+Bonus tasks:
+- Find student with highest marks (loop + comparison).
+- Filter students (if condition inside loop).

@@ -1,0 +1,31 @@
+========== CONSTRUCTORS & METHODS INSIDE CLASS ==========
+
+Constructor:
+- Special method that runs automatically when an object is created.
+- Same name as the class, no return type (not even void).
+- Used to initialize fields (set initial values).
+
+Syntax:
+public ClassName(parameters)
+{
+    // initialize fields
+}
+
+Benefits of constructor:
+- Cleaner object creation.
+- Ensures object is valid from start.
+- Reduces manual assignment after creation.
+
+Methods inside class:
+- Encapsulate behavior (actions) with data.
+- Can access and modify class fields.
+- Called using objectName.MethodName().
+
+Why this matters:
+- Real OOP: data + behavior together.
+- Main program becomes simpler and more readable.
+- Reusable and modifiable.
+
+Bonus: IsPassed() method returns bool.
+- Encapsulates the pass/fail rule (marks > 40).
+- Can be changed in one place if rules change.

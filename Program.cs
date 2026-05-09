@@ -4,6 +4,8 @@ using LearningCSharpNotes.Topic02_ControlFlow;
 using LearningCSharpNotes.Topic03_Loops;
 using LearningCSharpNotes.Topic04_Methods;
 using LearningCSharpNotes.Topic05_ArraysLists;
+using LearningCSharpNotes.Topic06_ClassesObjects;
+using LearningCSharpNotes.Topic07_ConstructorsMethods;
 using LearningCSharpNotes.Topic08_Inheritance;
 using LearningCSharpNotes.Topic09_Polymorphism;
 using LearningCSharpNotes.Topic10_Encapsulation;
@@ -24,7 +26,9 @@ class Program
         Console.WriteLine("12. Methods (Topic 4)");
         Console.WriteLine("2. Classes & Objects (Topic 6)");
         Console.WriteLine("13. Arrays & Lists (Topic 5)");
+        Console.WriteLine("14. Classes & Objects (Topic 6)");
         Console.WriteLine("3. Constructors & Methods (Topic 7)");
+        Console.WriteLine("15. Constructors & Methods inside Class (Topic 7)");
         Console.WriteLine("4. Inheritance (Topic 8)");
         Console.WriteLine("6. Encapsulation (Topic 10)");
         Console.WriteLine("7. Abstraction & Interface (Topic 11)");
@@ -51,11 +55,14 @@ class Program
             case "13":
                 Topic05_ArraysLists.Demo();
                 break;
-            case "4":
-                Topic06_ClassesObjects.Demo();
+                ccase "14":
+    Topic06_ClassesObjects.Demo();
                 break;
             case "5":
                 Topic07_Constructors.Demo();
+                break;
+            case "15":
+                Topic07_ConstructorsMethods.Demo();
                 break;
             case "6":
                 Topic08_Inheritance.Demo();
