@@ -2,6 +2,7 @@
 using LearningCSharpNotes.Topic01_VariablesIO;
 using LearningCSharpNotes.Topic02_ControlFlow;
 using LearningCSharpNotes.Topic03_Loops;
+using LearningCSharpNotes.Topic04_Methods;
 using LearningCSharpNotes.Topic08_Inheritance;
 using LearningCSharpNotes.Topic09_Polymorphism;
 using LearningCSharpNotes.Topic10_Encapsulation;
@@ -19,6 +20,7 @@ class Program
         Console.WriteLine("10. Control Flow (If/Else) (Topic 2)");
 
         Console.WriteLine("3. Loops (Topic 3)");
+        Console.WriteLine("12. Methods (Topic 4)");
         Console.WriteLine("2. Classes & Objects (Topic 6)");
         Console.WriteLine("3. Constructors & Methods (Topic 7)");
         Console.WriteLine("4. Inheritance (Topic 8)");
@@ -40,6 +42,9 @@ class Program
                 break;
             case "3":
                 Topic03_Loops.Demo();
+                break;
+            case "12":
+                Topic04_Methods.Demo();
                 break;
             case "4":
                 Topic06_ClassesObjects.Demo();

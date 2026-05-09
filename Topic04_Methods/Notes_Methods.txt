@@ -1,0 +1,34 @@
+========== METHODS ==========
+
+A method is a reusable block of code. It helps avoid repetition and makes code organized.
+
+Basic structure:
+returnType MethodName(parameters)
+{
+    // code
+    return value; // if returnType not void
+}
+
+Return types:
+- void: returns nothing
+- int, string, double, etc.: returns that type
+
+Parameters: input values the method needs to work.
+
+Method naming: Use PascalCase (e.g., GetNumber, Add).
+
+Two steps to use a method:
+1. Define it (write the code once).
+2. Call it (use it by name).
+
+Why methods matter:
+- Avoid duplicate code.
+- Break complex problems into small pieces.
+- Easy to test and debug.
+
+In this demo:
+- GetNumber() asks user and returns an int.
+- Add(a, b) returns the sum.
+- CheckEven(num) prints result (void).
+
+Best practice: Each method does ONE thing.
